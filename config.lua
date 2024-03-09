@@ -6,4 +6,4 @@ reload "user.set"
 reload "user.plugins"
 reload "user.lsp"
 reload "user.neotest"
-
+reload "user.treesitter"

@@ -1,5 +1,6 @@
 reload "user.lsp.languages.cpp"
 reload "user.lsp.languages.rust"
+reload "user.lsp.languages.js-ts"
 
 local formatters = require "lvim.lsp.null-ls.formatters"
 formatters.setup {
