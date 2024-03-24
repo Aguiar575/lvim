@@ -3,6 +3,7 @@ lvim.plugins = {
   "mfussenegger/nvim-dap-python",
   "nvim-neotest/neotest-python",
   "nvim-neotest/neotest",
+  "nvim-neotest/nvim-nio",
   {
     "mrcjkb/rustaceanvim",
     init = function()

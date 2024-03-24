@@ -19,11 +19,11 @@ local mappings = {
   C = {
     name = "Rust",
     r = { "<cmd>RustLsp runnables<Cr>", "Runnables" },
-    t = { "<cmd>RustLsp Testables<Cr>", "Testables" },
+    t = { "<cmd>RustLsp testables<Cr>", "Testables" },
     m = { "<cmd>RustLsp renderDiagnostic<Cr>", "Diagnostics" },
     c = { "<cmd>RustLsp openCargo<Cr>", "Open Cargo" },
     p = { "<cmd>RustLsp parentModule<Cr>", "Parent Module" },
-    d = { "<cmd>RustDebuggables<Cr>", "Debuggables" },
+    d = { "<cmd>RustLsp debuggables<Cr>", "Debuggables" },
     v = { "<cmd>RustViewCrateGraph<Cr>", "View Crate Graph" },
     R = {
       "<cmd>lua require('rust-tools/workspace_refresh')._reload_workspace_from_cargo_toml()<Cr>",
