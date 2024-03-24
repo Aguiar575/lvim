@@ -1,5 +1,6 @@
 lvim.builtin.treesitter.ensure_installed = {
   "python",
+  "cpp"
 }
 
 -- I'm setting this because I have connflict with the parser 
